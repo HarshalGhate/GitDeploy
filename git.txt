@@ -1,0 +1,13 @@
+npm install -g angular-cli-ghpages
+
+ng build --prod --base-href "https://HarshalGhate.github.io/Repository_Name/"
+
+ngh --dir dist/Project_Name
+
+
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/HarshalGhate/DemoApp.git
+git push -u origin main
