@@ -1,0 +1,12 @@
+1) firebase login
+
+*) Add project in firebase (Optional)
+
+
+2) firebase init hosting
+
+3) dist/projectname
+
+4) ng build --prod
+
+5) firebase deploy
